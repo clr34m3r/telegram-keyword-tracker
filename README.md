@@ -1,6 +1,6 @@
 # Telegram Keyword Tracker
 
-This project is a Telegram client that monitors specified channels for messages containing certain target words. When a target word is detected in a message, the client logs the message and prints an alert to the terminal.
+This project is a Telegram client that monitors specified channels for messages containing certain target words. It is designed for use cases where you do not have permission to add a bot to the channel. When a target word is detected in a message, the client logs the message and prints an alert to the terminal.
 
 ## Features
 
