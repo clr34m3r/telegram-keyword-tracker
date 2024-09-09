@@ -1,4 +1,4 @@
-# Telegram Channel Monitor
+# Telegram Keyword Tracker
 
 This project is a Telegram client that monitors specified channels for messages containing certain target words. When a target word is detected in a message, the client logs the message and prints an alert to the terminal.
 
@@ -19,12 +19,12 @@ This project is a Telegram client that monitors specified channels for messages 
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/yourusername/telegram-channel-monitor.git
-   cd telegram-channel-monitor
+   git clone https://github.com/clr34m3r/telegram-keyword-tracker.git
+   cd telegram-keyword-tracker
    ```
 2. **Install the required packages:**
    ```sh
-   pip install telethon
+   pip3 install telethon
    ```
 3. **Create a config.json file:**
    Create a config.json file in the root directory of the project with the following structure:
@@ -39,7 +39,7 @@ This project is a Telegram client that monitors specified channels for messages 
   Replace YOUR_API_ID and YOUR_API_HASH with your actual API ID and API Hash from my.telegram.org. Add the target words and channel IDs you want to monitor.
 4. **Run the client:**
    ```sh
-   python channel_getter.py
+   python3 keywork-tracker.py
    ```
 ## Usage
    - The client will start and monitor the specified channels for messages containing the target words.
