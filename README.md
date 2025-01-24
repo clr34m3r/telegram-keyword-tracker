@@ -60,5 +60,7 @@ This project is a Telegram client that monitors specified channels for messages 
    - Security Monitoring: Track mentions of specific threats or vulnerabilities in security-focused Telegram channels.
    - Brand Monitoring: Monitor mentions of your brand or product in various Telegram communities.
    - Research: Collect data on specific topics or keywords for research purposes.
+## Warning
+Telethon has a history of causing Telegram accounts to be locked due to being mistakenly identified by Telegram as performing spam actions. Do not use this script with your main account or accounts that contain important information.
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
