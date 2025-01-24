@@ -36,7 +36,7 @@ This project is a Telegram client that monitors specified channels for messages 
    }
    ```
   Replace YOUR_API_ID and YOUR_API_HASH with your actual API ID and API Hash from my.telegram.org. Add the target words and channel IDs you want to monitor.
-4. **Run the client:**
+  4. **Run the client:**
    ```sh
    python3 keywork-tracker.py
    ```
